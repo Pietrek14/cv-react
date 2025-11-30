@@ -16,6 +16,6 @@ export const Header = ({ fullName, position, email, phoneNumber, githubHandle }:
             </div>
             <ContactInfo email={email} phoneNumber={phoneNumber} githubHandle={githubHandle} />
         </div>
-        <div className="portrait portrait-round w-48 h-48"></div>
+        <div className="portrait portrait-round w-48 h-48 xl:w-64 xl:h-64"></div>
     </header>
 }
