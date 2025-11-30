@@ -1,0 +1,8 @@
+.education-history:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5rem;
+    clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+    background-color: var(--color-blue);
+}

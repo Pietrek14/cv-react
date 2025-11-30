@@ -1,0 +1,9 @@
+.portrait {
+    background-image: url("../../assets/portrait.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.portrait-round {
+    border-radius: 100%;
+}

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+.polaroid {
+  background: #fff;
+  padding: 1rem;
+  box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
+  height: auto;
+}
+
+.polaroid > img{
+  max-width: 100%;
+  height: auto;
+}
+
+.caption {
+  text-align: center;
+  font-family: "Caveat", cursive;
+  font-style: normal;
+  line-height: 2em;
+}
+
+.polaroid:nth-of-type(4n+1) {
+    transform: rotate(13deg);
+}
+
+.polaroid:nth-of-type(4n+2) {
+    transform: rotate(-5deg);
+}
+
+.polaroid:nth-of-type(4n+3) {
+    transform: rotate(3deg);
+}
+
+.polaroid:nth-of-type(4n) {
+    transform: rotate(-8deg);
+}
