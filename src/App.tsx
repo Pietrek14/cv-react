@@ -32,6 +32,28 @@ function App() {
 
   const employmentHistory = [
     {
+      title: "Prowadzenie zajęć z programowania",
+      employer: "InstaKod Sp. z o.o.",
+      startDate: "2025",
+      endDate: "obecnie",
+      responsibilities: [
+        "Nauka młodzieży szkolnej programowania w języku Python",
+        "Prowadzenie dokumentacji zajęć",
+        "Komunikacja z uczniami oraz rodzicami",
+      ]
+    },
+    {
+      title: "Analiza danych",
+      employer: "Przedsiębiorstwo Budowy Szybów S.A.",
+      startDate: "2025",
+      endDate: "2025",
+      responsibilities: [
+        "Praca przy projekcie \"Cyfrowy Bliźniak Szybu\"",
+        "Analiza danych historycznych",
+        "Digitalizacja raportów do wykorzystania do predykcji w procesach produkcyjnych",
+      ]
+    },
+    {
       title: "Automatyzacja procesów",
       employer: "DAGMA Bezpieczeństwo IT",
       startDate: "2023",
@@ -41,31 +63,19 @@ function App() {
         "Automatyzacja powtarzalnych zadań w Pythonie",
       ]
     },
-    {
-      title: "Analiza danych",
-      employer: "Przedsiębiorstwo Budowy Szybów",
-      startDate: "2025",
-      endDate: "2025",
-      responsibilities: [
-        "Praca przy projekcie \"Cyfrowy Bliźniak Szybu\"",
-        "Analiza danych historycznych",
-        "Digitalizacja książek raportowych",
-      ]
-    },
-    {
-      title: "Prowadzenie zajęć z programowania",
-      employer: "InstaKod Sp. z o. o.",
-      startDate: "2025",
-      endDate: "obecnie",
-      responsibilities: [
-        "Uczenie młodzieży szkolnej programowania w języku Python",
-        "Prowadzenie dziennika",
-        "Komunikacja z uczniami oraz rodzicami",
-      ]
-    },
   ]
 
   const education = [
+    {
+      school: "Politechnika Śląska",
+      startDate: "2024",
+      endDate: "obecnie",
+      descriptors: [
+        "Kierunek Informatyka na Wydziale Matematyki Stosowanej",
+        "Uczestnik programu mentorskiego \"Rozwiń skrzydła\"",
+        "Stypendysta programu projakościowego dla najlepszych kandydatów na studia",
+      ]
+    },
     {
       school: "Technikum nr 1 w Gliwicach",
       startDate: "2019",
@@ -75,16 +85,6 @@ function App() {
         "Dwukrotny laureat ogólnopolskiego konkursu \"O Złoty Indeks Politechniki Śląskiej\" w dziedzinie Informatyka",
         "Dwukrotny finalista ogólnopolskiego konkursu \"Motorola Science Cup\"",
         "Dwukrotny finalista ogólnopolskiego konkursu \"Mistrzostwa IT\"",
-      ]
-    },
-    {
-      school: "Politechnika Śląska",
-      startDate: "2024",
-      endDate: "obecnie",
-      descriptors: [
-        "Kierunek Informatyka na Wydziale Matematyki Stosowanej",
-        "Uczestnik programu mentorskiego \"Rozwiń skrzydła\"",
-        "Stypendysta programu projakościowego dla najlepszych kandydatów na studia",
       ]
     },
   ]
