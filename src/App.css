@@ -11,7 +11,8 @@
 }
 
 .wave-separator {
-  aspect-ratio: 1200/110;
+  aspect-ratio: 1200/120;
+  background-position: bottom;
   background-image: url("./assets/waves.svg");
   transform: scaleY(-1);
 }
