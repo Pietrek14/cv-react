@@ -17,6 +17,8 @@ import CansatImage from "./assets/cansat.jpg"
 import MetaheuristicsImage from "./assets/metaheurystyki.jpg"
 import BevyImage from "./assets/bevy2.png"
 import { Achievements } from "./components/Achievements/Achievements"
+import { Clause } from "./components/Clause/Clause"
+import SignatureImage from "./assets/signature.jpg"
 
 function App() {
 
@@ -176,6 +178,14 @@ function App() {
     },
   ];
 
+  const date = new Date();
+
+  let day = date.getDate();
+  let month = date.getMonth() + 1;
+  let year = date.getFullYear();
+
+  let currentDate = `${day}.${month}.${year}`;
+
   return (
     <div className="flex flex-col w-full min-h-screen bg-black text-white">
       <Header
@@ -198,6 +208,8 @@ function App() {
       <div className="spacer wave-separator bg-yellow" />
 
       <Achievements achievements={achievements} />
+
+      <Clause place="Gliwice" date={currentDate} signatureImageUrl={SignatureImage} />
     </div>
   )
 }
